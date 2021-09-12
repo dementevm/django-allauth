@@ -12,7 +12,7 @@ Client Protocol - `openid-connect` <br/>
 Root URL - `http://127.0.0.1:8000` <br/>
 5.2 Client Settings Valid Redirect URIs - http://127.0.0.1:8000/*
 5.3 Copy Secret from Credential tab
-![Screenshot](readme screenshots/secret.jpg)
+![alt text](https://github.com/dementevm/django-allauth/blob/main/readme%20screenshots/secret.jpg?raw=true)
 6. Download project - git clone https://github.com/dementevm/django-allauth.git
 7. Create venv - `py -m venv venv`
 8. Activate venv:\
@@ -22,11 +22,11 @@ linux - `source venv/bin/activate`
 10. Make migrations - `py manage.py migrate`
 11. Create superuser - `py manage.py createsuperuser`
 12. Log in to admin console and add site
-![Screenshot](readme screenshots/site.jpg)
+![alt text](https://github.com/dementevm/django-allauth/blob/main/readme%20screenshots/site.jpg?raw=true)
 Domain name: - http://localhost:8080/auth/ <br/>
 Display name: - http://localhost:8080/auth/
 13. Add social app: `http://127.0.0.1:8000/admin/`
-![Screenshot](readme screenshots/social app.jpg)
+![alt text](https://github.com/dementevm/django-allauth/blob/main/readme%20screenshots/social%20app.jpg?raw=true)
 Provider - `Keycloak` <br/>
 Name - `test` <br/>
 Client id - `django` <br/>
