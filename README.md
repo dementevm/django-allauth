@@ -14,7 +14,9 @@ Last Name - `Testov` <br/>
 Client ID - `django` <br/>
 Client Protocol - `openid-connect` <br/>
 Root URL - blank <br/>
-5.2 Client Settings Valid Redirect URIs - http://127.0.0.1:8000/*
+5.2 Client Settings tab: <br/>
+Access Type - `confidential` <br/>
+Valid Redirect URIs - http://127.0.0.1:8000/* <br/>
 5.3 Copy Secret from Credential tab
 ![alt text](https://github.com/dementevm/django-allauth/blob/main/readme%20screenshots/secret.jpg?raw=true)
 6. Download project - git clone https://github.com/dementevm/django-allauth.git
