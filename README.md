@@ -22,7 +22,7 @@ Valid Redirect URIs - http://127.0.0.1:8000/* <br/>
 6. Download project - `git clone https://github.com/dementevm/django-allauth.git`
 7. Create venv - `py -m venv venv`
 8. Activate venv:\
-win - `venv\Scrits\activate`\
+win - `venv\Scripts\activate`\
 linux - `source venv/bin/activate`
 9. Install requirements - `pip install -r requirements.txt`
 10. Make migrations - `py manage.py migrate`
