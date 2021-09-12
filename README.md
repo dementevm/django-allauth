@@ -4,7 +4,11 @@ win - `bin/standalone.bat`\
 linux - `bin/standalone.sh`
 3. Create admin account - https://www.keycloak.org/docs/latest/getting_started/#creating-the-admin-account
 4. Create realm and user - https://www.keycloak.org/docs/latest/getting_started/#creating-a-realm-and-a-user <br/>
-Realm name - `demo`
+Realm name - `demo` <br/>
+Username - `Test` <br/>
+Email - `test@test.test` <br/>
+First Name - `Test` <br/>
+Last Name - `Testov` <br/>
 5. Create client - https://www.keycloak.org/docs/latest/server_admin/#_oidc_clients
 5.1 <br/>
 Client ID - `django` <br/>
