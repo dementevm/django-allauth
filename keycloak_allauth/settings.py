@@ -43,8 +43,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.keycloak',
 ]
 
-SITE_ID = 4
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -151,3 +149,5 @@ SOCIALACCOUNT_PROVIDERS = {
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 LOGIN_URL = '/accounts/keycloak/login/?process=login&next=%2Fsecure%2F'
+
+#SITE_ID = 2
