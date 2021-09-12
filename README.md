@@ -27,11 +27,12 @@ linux - `source venv/bin/activate`
 9. Install requirements - `pip install -r requirements.txt`
 10. Make migrations - `py manage.py migrate`
 11. Create superuser - `py manage.py createsuperuser`
-12. Log in to admin console and add site
+12. Run server - `py manage.py runserver`
+13. Log in to admin console and add site
 ![alt text](https://github.com/dementevm/django-allauth/blob/main/readme%20screenshots/site.jpg?raw=true)
 Domain name: - http://localhost:8080/auth/ <br/>
 Display name: - http://localhost:8080/auth/
-13. Add social app: `http://127.0.0.1:8000/admin/`
+14. Add social app: `http://127.0.0.1:8000/admin/`
 ![alt text](https://github.com/dementevm/django-allauth/blob/main/readme%20screenshots/social%20app.jpg?raw=true)
 Provider - `Keycloak` <br/>
 Name - `test` <br/>
@@ -39,4 +40,3 @@ Client id - `django` <br/>
 Secret key - From 5.3 <br/>
 Key - blank <br/>
 Sites - `http://localhost:8080/auth/`
-14. Run server - `py manage.py runserver`
