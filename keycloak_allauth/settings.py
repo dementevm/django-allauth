@@ -123,7 +123,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-SESSION_COOKIE_AGE = 60
+SESSION_COOKIE_AGE = 10000
 
 # Сессия будет обновляться после какждного обнволения страницы
 # SESSION_SAVE_EVERY_REQUEST = True
@@ -143,7 +143,7 @@ AUTHENTICATION_BACKENDS = [
 
 SOCIALACCOUNT_PROVIDERS = {
     'keycloak': {
-        'KEYCLOAK_URL': 'http://localhost:8180/auth',
+        'KEYCLOAK_URL': 'http://localhost:8080/auth',
         'KEYCLOAK_REALM': 'demo'
     }
 }
