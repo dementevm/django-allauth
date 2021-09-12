@@ -19,7 +19,7 @@ Access Type - `confidential` <br/>
 Valid Redirect URIs - http://127.0.0.1:8000/* <br/>
 5.3 Copy Secret from Credential tab
 ![alt text](https://github.com/dementevm/django-allauth/blob/main/readme%20screenshots/secret.jpg?raw=true)
-6. Download project - git clone https://github.com/dementevm/django-allauth.git
+6. Download project - `git clone https://github.com/dementevm/django-allauth.git`
 7. Create venv - `py -m venv venv`
 8. Activate venv:\
 win - `venv\Scrits\activate`\
