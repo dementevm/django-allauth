@@ -9,7 +9,7 @@ Realm name - `demo`
 5.1 <br/>
 Client ID - `django` <br/>
 Client Protocol - `openid-connect` <br/>
-Root URL - `http://127.0.0.1:8000` <br/>
+Root URL - blank <br/>
 5.2 Client Settings Valid Redirect URIs - http://127.0.0.1:8000/*
 5.3 Copy Secret from Credential tab
 ![alt text](https://github.com/dementevm/django-allauth/blob/main/readme%20screenshots/secret.jpg?raw=true)
