@@ -27,10 +27,10 @@ Domain name: - http://localhost:8080/auth/ <br/>
 Display name: - http://localhost:8080/auth/
 13. Add social app: `http://127.0.0.1:8000/admin/`
 ![Screenshot](readme screenshots/social app.jpg)
-Provider - Keycloak
-Name - test
-Client id - django
-Secret key - From 5.3
-Key - blank
-Sites - http://localhost:8080/auth/
+Provider - `Keycloak` <br/>
+Name - `test` <br/>
+Client id - `django` <br/>
+Secret key - From 5.3 <br/>
+Key - `blank` <br/>
+Sites - `http://localhost:8080/auth/`
 14. Run server - `py manage.py runserver`
