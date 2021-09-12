@@ -150,4 +150,4 @@ ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 LOGIN_URL = '/accounts/keycloak/login/?process=login&next=%2Fsecure%2F'
 
-#SITE_ID = 2
+SITE_ID = 1
