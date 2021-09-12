@@ -6,7 +6,7 @@
 </head>
 <body>
     <div>
-        First login required page. <a href="{% url 'account_logout' %}">Logout</a>
+        First login required page. Your name - {{ user }} <br/> <a href="{% url 'account_logout' %}">Logout</a>
     </div>
     <div>
         Second login required page test <a href="{% url 'second_test' %}">Second login required page</a>
