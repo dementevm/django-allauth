@@ -37,6 +37,6 @@ Provider - `Keycloak` <br/>
 Name - `test` <br/>
 Client id - `django` <br/>
 Secret key - From 5.3 <br/>
-Key - `blank` <br/>
+Key - blank <br/>
 Sites - `http://localhost:8080/auth/`
 14. Run server - `py manage.py runserver`
