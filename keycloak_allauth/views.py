@@ -17,7 +17,8 @@ def custom_logout(request):
 
 @login_required
 def secure_test_one(request):
-    return render(request, 'first_secure.html')
+    return render(request, 'first_secure.html',
+                  {'user': request.user.username})
 
 
 @login_required
