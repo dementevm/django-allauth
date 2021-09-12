@@ -41,3 +41,4 @@ Secret key - From 5.3 <br/>
 Key - blank <br/>
 Sites - `http://localhost:8080/auth/`
 15. Log out from admin console
+16. Change Line 153 in keycloak_allauth/settings.py from SITE_ID = 1 to SITE_ID = 2
