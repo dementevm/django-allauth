@@ -1,0 +1,28 @@
+https://discuss.elastic.co/t/if-type-is-not-working-in-logstash-2-3-2/54181/6
+ 
+input {
+	tcp {
+		port => 5000
+		tags => ["undr"]
+	}
+}
+ 
+## Add your filters / logstash plugins configuration here
+ 
+output {
+	if "undr" in [tags] {
+		elasticsearch {
+			hosts => "elasticsearch:9200"
+			index => "django-%{+YYYY.MM.dd}"
+			user => "elastic"
+			password => "changeme"
+		}
+	} else {
+	elasticsearch {
+		hosts => "elasticsearch:9200"
+		index => "notfound"
+		user => "elastic"
+		password => "changeme"
+}	
+}
+}
